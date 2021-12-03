@@ -4,6 +4,10 @@ body {
 h1, h2, h3, h4 {
     font-family: "Lobster", cursive;
 }
+h4{
+    font-family: "Lobster", cursive;
+    text-align:center;
+}
 footer {
     background-image: linear-gradient(to right, #5637DD, #800000, #60106B);
     padding: 20px 0;
@@ -12,5 +16,28 @@ footer {
 .jumbotron {
     padding: 30px;
     background-image: linear-gradient(to right, #5637DD, #800000, #60106B);
-    color: white;
+    color: black;
+    margin: 0;
 }
+.navbar {
+   
+    /* background-color:#8a795d; */
+    background-color: transparent;
+}
+.space{
+    margin: 0;
+    padding: 0;
+    height: 50px;
+}
+.img-center {
+    /* text-align: center;  */
+    /* border-radius: 8px; */
+    width: 400px;
+    height:350px;
+    background-color: white;
+    /* box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), 0 2px 3px 0 rgba(0, 0, 0, 0.1); */
+  }
+  .row {
+    display: flex;
+    margin: auto;
+  }
