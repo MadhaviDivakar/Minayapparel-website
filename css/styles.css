@@ -20,8 +20,6 @@ footer {
     margin: 0;
 }
 .navbar {
-   
-    /* background-color:#8a795d; */
     background-color: transparent;
 }
 .space{
@@ -30,12 +28,10 @@ footer {
     height: 50px;
 }
 .img-center {
-    /* text-align: center;  */
-    /* border-radius: 8px; */
     width: 400px;
     height:350px;
     background-color: white;
-    /* box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), 0 2px 3px 0 rgba(0, 0, 0, 0.1); */
+    transition:transform 0.25s ease;
   }
   .row {
     display: flex;
